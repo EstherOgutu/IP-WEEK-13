@@ -61,7 +61,7 @@ This is the [link](https://rpubs.com/Esther_O/908262) to the Advertising project
 
 The image below shows the univariate analysis of various variables:
 
-![Revenue](download (6).png)
+![Revenue]("download (6).png")
 
 ![Month](download (4).png)
 
