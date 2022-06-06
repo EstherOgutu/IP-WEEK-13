@@ -61,25 +61,25 @@ This is the [link](https://rpubs.com/Esther_O/908262) to the Advertising project
 
 The image below shows the univariate analysis of various variables:
 
-![Revenue]("download (6).png")
+![Revenue](revenue.png)
 
-![Month](download (4).png)
+![Month](month.png)
 
-![VisitorType](download (5).png)
+![VisitorType](visitor.png)
 
 ## Bivariate
 
 The images below show how various sqft_living, bedrooms, and condition:
 
-![VisitorType Vs Weekend](download (7).png)
+![VisitorType Vs Weekend](visitor_vs_weekend.png)
 
-![Month Vs Revenue](download (8).png)
+![Month Vs Revenue](month_vs_revenue.png)
 
 
 Heatmap showing the correlation of all the variables:
 
-![heatmap](download (10.png)
+![heatmap](heatmap.png)
 
 ## Multivariate
 
-![Month, Administrative_Duration and VisitorType](download (9).png)
+![Month, Administrative_Duration and VisitorType](month_visitor_multivariate.png)
