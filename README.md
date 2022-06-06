@@ -49,28 +49,35 @@ The "Page Value" feature represents the average value for a web page that a user
 
 - The dataset also includes the operating system, browser, region, traffic type, visitor type as returning or new visitor, a Boolean value indicating whether the date of the visit is weekend, and month of the year.
 
+# The Project
+
+Here is the link to my project.
+
 # Exploratory Data Analysis
 
 ## Univariate
 
 The image below shows the univariate analysis of various variables:
 
-![sqft_living Vs Price](condition_uni.png)
+![Revenue](download (6).png)
+
+![Month](download (4).png)
+
+![VisitorType](download (5).png)
 
 ## Bivariate
 
 The images below show how various sqft_living, bedrooms, and condition:
 
-![sqft_living Vs Price](sqft_living_price.png)
+![VisitorType Vs Weekend](download (7).png)
 
-![bedrooms Vs Price](bedrooms_price_bi.png)
+![Month Vs Revenue](download (8).png)
 
-![condition Vs Price](condition_price_bi.png)
-
-![price change over time](house_price_change.png)
 
 Heatmap showing the correlation of all the variables:
 
-![heatmap](heatmap.png)
+![heatmap](download (10.png)
 
 ## Multivariate
+
+![Month, Administrative_Duration and VisitorType](download (9).png)
