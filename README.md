@@ -51,7 +51,9 @@ The "Page Value" feature represents the average value for a web page that a user
 
 # The Project
 
-Here is the link to my project.
+Here is the [link](https://rpubs.com/Esther_O/911041) to my project on RPubs.
+
+This is the [link](https://rpubs.com/Esther_O/908262) to the Advertising project I did before.
 
 # Exploratory Data Analysis
 
