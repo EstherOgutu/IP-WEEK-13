@@ -30,6 +30,7 @@ Multivariate Analysis.
 
 Implement the Solution.
 
+
 Challenging the Solution.
 
 Follow-up Questions.
@@ -83,3 +84,45 @@ Heatmap showing the correlation of all the variables:
 ## Multivariate
 
 ![Month, Administrative_Duration and VisitorType](month_visitor_multivariate.png)
+
+## Conclusion
+- We had a total of 119 duplicated entries, which were all valid entries. They have similar values in some fields, but they are different entries. For that reason, we did not remove them from our dataset.
+
+- We had a total of 112 missing values. We imputed the missing values using Amelia Technique.
+
+- Our dataset had a dimension of 12330, 18 initially, and after imputing the missing values, we ended-up with the same dimension of 12330, 18.
+
+- We select 3 numerical columns to compare their mean and standard deviation. The three columns we have chosen are: Administrative, ProductRelated and SpecialDay. From the three variables selected, we can see that two out of three (PageValues and ProductRelated) exhibit a high standard deviation, which indicates that the data points tend to be far from their mean. From this information, we can get an interpretation that the distribution of our data is not normal.
+
+- From the skewness data, we gathered that most variables are highly skewed. This is because most variables have a value that is greater than +1.
+
+- Most of the variable have a kurtosis that is >3. Compared to a normal distribution, its tails are longer and fatter, and often its central peak is higher and sharper, hence are leptokurtic.
+
+- The page that has the highest maximum number of visitors is the ProductRelated Page. This means that most people visit the page when compared to Administrative Page (maximum of 27 visitors) and Informational Page (maximum of 24 visitors)
+
+- TrafficType 2 has the highest count of visitors, followed by TrafficType 1,3, and 4.
+
+- The highest number of visitors are Returning_Visitors.
+
+- The highest month with the highest visitors vising the website is May, Followed closely by November, then march. The month of May could be having the highest number of visitors to the site because of Mother’s Day. It could be that most people are shopping for gifts. November is following closely probably because of Black Fridays, which happen in the month of November. Most people could be going to the website to look for offers.
+
+## Clustering:
+Between K-Means and Hierarchial Clustering, the better option is K-Means, especially using a cluster of 8. It gives detailed characteristics of the customers segments.
+
+### Strength of K-Means Clustering
+It give better visual representation of the clusters.
+
+### Limitation of K-Means Clustering
+-It is cumbersome to find the optimal number of clusters. Running the techniques of finding the optimal clusters, for instance gap method, is time-consuming.
+
+### Strength of Hierarchial Clustering
+We do not need to specify the number of clusters.
+
+### Limitation of Hierarchial Clustering
+It is a complex technique.
+
+## Recommendation
+For this project I recommend the use of K-Means Clustering with a cluster of 8.
+
+## Follow-up Questions
+What makes the rate of Returning_Visitors to be higher than the New_Visitors?
