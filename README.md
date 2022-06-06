@@ -30,7 +30,6 @@ Multivariate Analysis.
 
 Implement the Solution.
 
-
 Challenging the Solution.
 
 Follow-up Questions.
@@ -84,6 +83,14 @@ Heatmap showing the correlation of all the variables:
 ## Multivariate
 
 ![Month, Administrative_Duration and VisitorType](month_visitor_multivariate.png)
+
+## Clustering
+
+### K-Means Clustering
+![K-Means](k_means_clustering.png)
+
+### Hierarchial Clustering
+![Hierarchial](hierarchial.png)
 
 ## Conclusion
 - We had a total of 119 duplicated entries, which were all valid entries. They have similar values in some fields, but they are different entries. For that reason, we did not remove them from our dataset.
